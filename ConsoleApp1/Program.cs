@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net.Http;
 
-namespace ConsoleApp1
+namespace ConsoleApp
 {
     class Program
     {
