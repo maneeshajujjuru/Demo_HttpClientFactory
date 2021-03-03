@@ -12,6 +12,8 @@ namespace Demo
 
         public MyGitHubClient(HttpClient client)
         {
+            client.BaseAddress = new Uri("http://api.github.com/");
+            client.DefaultRequestHeaders.Add("Accept", "application/vnd.github.v3+json");
             Client = client;
         }
 
